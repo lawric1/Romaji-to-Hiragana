@@ -1,0 +1,40 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1F1D36;
+}
+
+main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+}
+
+.textAreas {
+    display: flex;
+	justify-content: space-evenly;
+	width: 100%;
+	height: 180px;
+}
+
+textarea {
+    resize: none;
+    background-color: #1F1D36;
+    color: #E9A6A6;
+    font-size: 16px;
+    border: 2px solid #3F3351;
+    border-radius: 6px;
+}
+
+textarea:hover {
+    background-color: #3F3351;
+    border: 2px solid #864879;
+}
+
+textarea:focus {
+    background-color: #3F3351;
+    border: 2px solid #864879;
+    outline: none !important;
+}
