@@ -38,3 +38,13 @@ textarea:focus {
     border: 2px solid #864879;
     outline: none !important;
 }
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+    background-color:transparent; 
+}
+
+textarea::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #864879; 
+}

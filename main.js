@@ -9,7 +9,7 @@ window.onload = () => {
     
 
     inputArea.addEventListener('input', ()=>{
-        let string = input.value;
+        let string = input.value.toLowerCase();
 
         var result = string.replace(re, function(matched){
             return db[matched];
